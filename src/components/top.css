@@ -97,8 +97,33 @@
 }
 
 @media only screen and (max-width: 655px) {
-    .button{
-        padding-top: 10px;
-      margin: 2px;
+    .Header{
+        width: 100%;
+    }
+    .Header h1{
+        font-size: 40px;
+    }
+    
+    .container{
+        flex-wrap: wrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .About{
+        height: 100%;
+        padding-top: 20px;
+    }
+    .page{
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
     }
   }
