@@ -1,0 +1,104 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.Header{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.button{
+    margin: 10px;
+}
+
+.About{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.About h1{
+    font-size: 70px;
+    text-decoration: line-through 6px #3325f7;
+    text-align: center;
+    color: gray;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.Header h1{
+    font-size: 70px;
+    text-decoration: line-through 6px #45f725;
+    text-align: center;
+    color: gray;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.about{
+    flex-direction: column;
+    padding: 10px;
+}
+
+.box{
+    display: flex;
+    border: 5px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Porfolio{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.page{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.page h1{
+    font-size: 70px;
+    text-decoration: line-through 6px #f72525;
+    text-align: center;
+    color: gray;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.projectstorage{
+    border: 5px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 10px 30px 10px;
+    width: 650px;
+    
+}
+.projectstorage h2{
+    font-family: 'Roboto Mono', monospace;
+}
+.projectstorage img{
+    padding-bottom: 15px;
+}
+
+.project1{
+    flex: 0 0 auto;
+}
+
+@media only screen and (max-width: 655px) {
+    .button{
+        padding-top: 10px;
+      margin: 2px;
+    }
+  }
