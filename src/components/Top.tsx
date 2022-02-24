@@ -10,25 +10,11 @@ export function Top(){
     const [portfolio, setPortfolio]= useState(false);
     const [main, setMain] = useState(false);
 
-    const responsive = {
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 1
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 1
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
-      };
 
 
       function loadAbout(){
         setMain(false);
-        setPortfolio(true)
+        setPortfolio(false)
         setAbout(true);
       }
 
@@ -39,9 +25,9 @@ export function Top(){
       }
 
       function loadHome(){
-          setMain(true);
           setPortfolio(false);
           setAbout(false);
+          setMain(true);
       }
       if(main){
           return <div className="Header">
@@ -76,8 +62,8 @@ export function Top(){
             <div className="about">
                 
                 <p style={{"padding": "10px"}}> 
-                    <p>Hello World! </p>My name is Narcis Sprecic and welcome to my portfolio. <p> </p>
-                    <p>I am a full-stack JavaScript developer with experiences building frontend and backend applications. I am originally from Bosnia & Herzegovina. As a programmer, my long-term goal is to create applications that unite and inform people. My inspiration in pursuing technology came from my curiosity in understanding how the world works and why people do things that they do. I believe that everyone has a purpose in the world and desire to make programs that follow the same morals I follow.</p>
+                    <p>Hello World! </p>My name is Narcis Sprecic. Welcome to my portfolio. <p> </p>
+                    <p>I am a full-stack JavaScript developer with experience building front-end and back-end applications. Outside the languages of tech, I am multilingual in speaking English, Bosnian, Croatian, and Serbian. As a programmer, my long-term goal is to create applications that illuminate important information and unite people. My inspiration in pursuing technology originates from my curiosity about technological advancements that are necessary for our evolving world. I believe that every individual has a purpose. I desire to design products that will positively contribute to our society.</p>
 
                 </p>
             </div>
