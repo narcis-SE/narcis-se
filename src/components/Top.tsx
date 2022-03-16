@@ -120,7 +120,7 @@ export function Top(){
                         <h2>RoverGram</h2>
                         <img src="img/rovergram.png" className="img"></img>
                         <p>Nasa API side project showcasing Rover images in a social media like format. Grants users the ability to like and look through live photos.</p>
-                        <p> <a href="https://nba-finalproject.web.app/"><PlayCircle width={40} height={40}/></a> <a href="https://github.com/narcis-SE/final-project"><Github width={40} height={40}/></a> </p>
+                        <p> <a href="https://narcis-se.github.io/NasaAPIChallenge/"><PlayCircle width={40} height={40}/></a> <a href="https://github.com/narcis-SE/NasaAPIChallenge"><Github width={40} height={40}/></a> </p>
                     </div>
                 </div>
 
